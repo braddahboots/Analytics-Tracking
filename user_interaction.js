@@ -12,15 +12,14 @@ var getElement = (function() {
     var elementObject = element.target;
     console.log('hello',elementObject);
 
-    console.log('testing 3',elementObject.id);
-    if(cache[elementObject.id] > 0) {
-      console.log('testing');
-      cache[elementObject.id] ++;
+    console.log('testing 3',elementObject);
+    if(cache[elementObject] > 0) {
+      // console.log('testing');
+      cache[elementObject] ++;
       console.log(cache[elementObject]);
-    return cache[elementObject.id];
     } else {
-      console.log('testing2');
-      cache[elementObject.id] = 1;
+      // console.log('testing2');
+      cache[elementObject] = 1;
     }
 
   }
