@@ -1,1 +1,1 @@
-# Analytics-Tracking-
+Simple cache funtion that illustrates how many times a user clicks on a specific element on the site. Currently formatted to only store the current session.
